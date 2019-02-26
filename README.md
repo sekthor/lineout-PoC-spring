@@ -6,6 +6,12 @@
 5. Start project
 6. Have fun :-)
 
+The currently implemented endpoints are on
+
+* `localhost:8080/teams`
+* `localhost:8080/teams/{id}`   (replace {id} with any number)
+* `localhost:8080/teams/ping`
+
 ## Structure
 
 ### models
