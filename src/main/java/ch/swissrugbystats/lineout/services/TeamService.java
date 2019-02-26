@@ -10,14 +10,20 @@ import java.util.List;
 public class TeamService {
 
     public Team getTeam(int id) {
-        Team team = new Team();
-        team.name = "Würenlos";
-        team.id = id;
-        return team;
+        return new Team("Würenlos");
     }
 
     public List<Team> getTeams() {
-        return new ArrayList<Team>();
+
+        ArrayList<Team> teams = new ArrayList<>();
+        teams.add(new Team("Würenlos"));
+        teams.add(new Team("GC"));
+        teams.add(new Team("Bern"));
+        teams.add(new Team("St Gallen"));
+        teams.add(new Team("Luzern"));
+        teams.add(new Team("Baboons"));
+
+        return teams;
     }
 
 }
