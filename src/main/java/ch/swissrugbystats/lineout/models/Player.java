@@ -12,5 +12,5 @@ public class Player extends Member{
     Date birthday;
     Position position;
     PlayerStatistics playerStats;
-    boolean licenced;
+    boolean licensed;
 }
