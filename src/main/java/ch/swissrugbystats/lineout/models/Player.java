@@ -5,8 +5,8 @@ import org.springframework.stereotype.Component;
 import java.util.Date;
 
 @Component
-public class Player {
-    int id, teamId, streetNo, zipCode;
+public class Player extends Member{
+    int teamId, streetNo, zipCode;
     String firstName, lastName, streetName, city,
             phone, emergencyName, emergencyPhone;
     Date birthday;
