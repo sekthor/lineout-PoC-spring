@@ -12,7 +12,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/teams")
+@RequestMapping("/api/teams")
 public class TeamsResource {
 
     private final TeamService teamService;
@@ -34,7 +34,7 @@ public class TeamsResource {
 
     @GetMapping("/ping")
     public ResponseEntity<String> teamsWithMoreControl() {
-         return ResponseEntity.ok("pong");
+        return ResponseEntity.ok("pong");
     }
 
 }
